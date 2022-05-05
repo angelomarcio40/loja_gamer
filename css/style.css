@@ -12,7 +12,6 @@ body {
 
 #container {
     width: 1024px;
-    height: 1000px;
     background-color: #404040;
     margin: 0 auto;
 
@@ -20,7 +19,7 @@ body {
 
 #container-interno {
     width: 100%;
-    padding: 10px;
+    padding: 0 20px;
 }
 
 .header {
@@ -31,7 +30,7 @@ body {
     grid-template-columns: 1fr 2fr 1fr 1fr;
     gap: 10px;
     align-content: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .item {
@@ -51,4 +50,68 @@ body {
 .texto-menu {
     color: #FFF;
     text-decoration: none;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #FFF;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    text-align: center;
+    padding: 15px;
+
+}
+
+.texto-navbar {
+    color: #100681;
+    text-decoration: none;
+}
+
+.item-navbar {
+    align-self: center;
+}
+
+.texto-principal {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #E5E5E5;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.categorias {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 40px;
+}
+
+.categorias-img {
+    width: 100%;
+    height: 272px;
+}
+
+.promocoes {
+    margin-top: 40px;
+}
+
+.promocoes-titulo {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    color:#FFFFFF;
+    text-align: center;
 }
