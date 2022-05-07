@@ -93,7 +93,7 @@ body {
 
 .categorias {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 40px;
 }
 
@@ -112,6 +112,98 @@ body {
     font-weight: 700;
     font-size: 35px;
     line-height: 41px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     text-align: center;
 }
+
+.promocoes-figure {
+    background-color: #FFF;
+    text-align: center;
+    padding: 15px;
+}
+
+.promocoes-img {
+    width: 100%;
+}
+
+/* altera o tamanho padrão de cada item do carousel */
+.carousel__slide {
+    /*vai ser de 40% o padrão é 60% define que a largura máxima de cada item do carousel */
+    max-width: var(--carousel-slide-width, 40%);
+}
+
+.banner2 {
+    margin-top: 40px;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.rodape {
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #FFF;
+}
+
+.rodape-item {
+    padding: 20px;
+}
+
+.rodape-titulo {}
+
+.rodape-texto {
+    font-weight: normal;
+    font-size: 13px;
+    text-decoration: none;
+    color: #C2C2C2;
+}
+
+.rodape-texto p {
+    padding: 5px;
+}
+
+/* final da versão desktop */
+
+/* inicio da versão mobile */
+/* media querry para versão mobile e celular */
+@media only screen and (max-width: 768px) {
+    #container {
+        width: 100%;
+    }
+}
+
+.header {
+    grid-template-columns: 1fr;
+    height: auto;
+    text-align: center;
+    padding: 0;
+}
+
+#pesquisar {
+    width: 100%;
+    padding: 10px;
+}
+
+.item {
+    padding: 5px;
+}
+
+.navbar {
+    grid-template-columns: 1fr;
+}
+
+.item-navbar {
+    padding: 10px;
+}
+
+.categorias {
+    grid-template-columns: 1fr;
+}
+
+.rodape {
+    grid-template-co,umns: 1fr;
+}
+
+/* final da versão mobile */
